@@ -15,6 +15,7 @@ hugo server -D                   # Watch mode + include draft/pending-future pos
 - [ ] Check that all page content renders correctly with ananke theme
 - [ ] Preview drafts with `hugo server -D` but don't commit draft posts
 - [ ] Run `hugo` to generate production output in `public/` and verify it looks correct before pushing to main
+- [ ] Always update the `lastmod` field in post frontmatter before pushing — this signals revision timestamps to RSS feeds and theme templates
 
 ## Adding Authors to Posts
 
