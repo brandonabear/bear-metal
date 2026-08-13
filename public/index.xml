@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Bear Metal</title>
-		<link>http://localhost:61559/bear-metal/</link>
+		<link>http://localhost:63517/bear-metal/</link>
 		<description>Recent content on Bear Metal</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,13 +12,13 @@
 		
 			<lastBuildDate>Tue, 07 Jul 2026 11:40:54 -0700</lastBuildDate>
 		
-			<atom:link href="http://localhost:61559/bear-metal/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:63517/bear-metal/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>After the Gold Rush</title>
-				<link>http://localhost:61559/bear-metal/posts/after-the-gold-rush/</link>
+				<link>http://localhost:63517/bear-metal/posts/after-the-gold-rush/</link>
 				<pubDate>Tue, 07 Jul 2026 11:40:54 -0700</pubDate>
-				<guid>http://localhost:61559/bear-metal/posts/after-the-gold-rush/</guid>
-				<description>&lt;p&gt;I have been reflecting on my experience over the last few years with LLMs, both personally and professionally. The more I have used these models, the more I have questioned the net value of this technology.&lt;/p&gt;&#xA;&lt;p&gt;My first interactions with LLMs in 2023 were disappointing, to be honest. This was well before Claude Code and its ilk. I saw the value in its ability to quickly bootstrap boilerplate or accelerate repetitive tedious tasks, but ultimately my takeaway was that LLMs were a fancy auto-complete. That belief changed a bit when Sonnet 3.5 was released.&lt;/p&gt;</description>
+				<guid>http://localhost:63517/bear-metal/posts/after-the-gold-rush/</guid>
+				<description>&lt;p&gt;I have been reflecting on my experience over the last few years with LLMs, both personally and professionally. The more I have used these models, the more I have questioned the net value of this technology.&lt;/p&gt;&#xA;&lt;p&gt;My first interactions with LLMs for coding in 2023 were disappointing, to be honest. This was well before Claude Code and its ilk. I saw the value in their ability to quickly bootstrap boilerplate or accelerate repetitive tedious tasks slightly more complex than simple find-and-replace but ultimately my takeaway was that LLMs were a fancy auto-complete. That belief began to evolve when Sonnet 3.5 was released.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
