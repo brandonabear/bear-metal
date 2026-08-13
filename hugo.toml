@@ -1,0 +1,4 @@
+baseURL = 'https://brandonabear.github.io/bear-metal/'
+locale = 'en-us'
+title = 'Bear Metal'
+theme = 'ananke'
