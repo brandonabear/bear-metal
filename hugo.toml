@@ -2,3 +2,9 @@ baseURL = 'https://brandonabear.github.io/bear-metal/'
 locale = 'en-us'
 title = 'Bear Metal'
 theme = 'ananke'
+
+[params]
+body_classes = "avenir dark"
+
+[params.ananke]
+custom_css = ["_dark-mode.css"]

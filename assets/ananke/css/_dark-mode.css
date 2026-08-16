@@ -1,0 +1,80 @@
+/*
+ * Project-level dark theme for the Bear Metal site.
+ *
+ * Loaded last via params.ananke.custom_css so it wins the cascade over the
+ * ananke theme utilities. Dark is the default; readers with a light OS
+ * setting automatically get the light palette via prefers-color-scheme.
+ */
+
+:root {
+   --bg: #1a1a1a;
+   --card: #242426;
+   --fg: #d7d7d7;
+   --muted: #9a9a9f;
+   --border: #3a3a3d;
+   --link: #6ea8fe;
+}
+
+@media (prefers-color-scheme: light) {
+   :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --fg: #3a3a3a;
+      --muted: #555555;
+      --border: #cccccc;
+      --link: #1185fe;
+   }
+}
+
+body {
+   background-color: var(--bg);
+   color: var(--fg);
+}
+
+/* Content cards on list/index pages and light-gray accents. */
+.bg-white,
+.bg-light-gray {
+   background-color: var(--card) !important;
+}
+
+.b--moon-gray,
+.border--moon-gray {
+   border-color: var(--border) !important;
+}
+
+a,
+.link {
+   color: var(--link);
+}
+
+.gray,
+.mid-gray {
+   color: var(--muted);
+}
+
+/* Preview/aside body text and accent headings that are dark by default. */
+.dark-gray {
+   color: var(--fg) !important;
+}
+.near-black {
+   color: var(--fg) !important;
+}
+.black,
+.black-60 {
+   color: var(--fg) !important;
+}
+
+/* Near-invisible card divider on a dark background. */
+.b--black-10 {
+   border-color: var(--border) !important;
+}
+
+/* Keep code blocks on the card surface for a coherent dark look. */
+pre,
+pre code {
+   background-color: var(--card);
+}
+
+.lh-copy blockquote {
+   border-left-color: var(--border);
+}
