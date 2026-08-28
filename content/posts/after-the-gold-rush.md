@@ -7,6 +7,8 @@ slug = 'after-the-gold-rush'
   author = 'Brandon Abear'
 +++
 
+## Introduction
+
 I began my software engineering career in the summer of 2013 as a data analyst before transitioning formally to a data engineer role in 2017. I have been coding professionally for 13 years and even longer in my personal life. As a data engineer, I have spent most of my career working in Python and SQL, though I have experience in Scala, R, Go, and Odin as well.
 
 For three years, I have watched the software industry attempt to reshape itself around Large Language Models (LLMs). The deeper I got into the ecosystem, the less convinced I became of its net value.
