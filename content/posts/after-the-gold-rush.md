@@ -7,7 +7,7 @@ slug = 'after-the-gold-rush'
   author = 'Brandon Abear'
 +++
 
-## Introduction
+### Introduction
 
 I began my software engineering career in the summer of 2013 as a data analyst before transitioning formally to a data engineer role in 2017. I have been coding professionally for 13 years and even longer in my personal life. As a data engineer, I have spent most of my career working in Python and SQL, though I have experience in Scala, R, Go, and Odin as well.
 
