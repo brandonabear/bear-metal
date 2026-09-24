@@ -1,5 +1,5 @@
 +++
-date = '2026-07-07T11:40:54-07:00'
+date = '2026-07-07T11:41:54-07:00'
 title = 'After the Gold Rush'
 slug = 'after-the-gold-rush'
 
